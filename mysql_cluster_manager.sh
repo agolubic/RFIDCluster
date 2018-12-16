@@ -7,8 +7,8 @@ NC='\033[0m'
 
 MSC_MANAGER_PKG_URL='https://dev.mysql.com/get/Downloads/MySQL-Cluster-7.6/mysql-cluster-community-management-server_7.6.6-1ubuntu18.04_amd64.deb';
 MSC_FILE_NAME='mysql_cluster_manager.deb'
-MSC_BASE_DIRECTORY=/var/lib/mysql-cluster2
-MSC_CONFIGURATION=/var/lib/mysql-cluster2/config.ini
+MSC_BASE_DIRECTORY=/var/lib/mysql-cluster
+MSC_CONFIGURATION=/var/lib/mysql-cluster/config.ini
 MSC_NUM_REPLICAS=1
 MSC_HOST='46.101.248.77'
 MSC_DATA_NODE_HOSTS=()
